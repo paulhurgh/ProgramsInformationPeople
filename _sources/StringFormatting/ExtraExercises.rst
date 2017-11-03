@@ -14,9 +14,12 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_01
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   1. Using string interpolation, fill out the parameters so that "I go to UM and I am in SI 106" is assigned to ``str1``.
 
    str1 = "I go to {} and I am in {}".format()
-      
+   ~~~~   
    =====
 
    from unittest.gui import TestCaseGui
@@ -33,9 +36,13 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_011
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   1.1 Using string interpolation, fill out the parameters so that 'This book teaches students python.' is assigned to ``info``.
+
 
    info = "This book {} students {}.".format()
-
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -51,11 +58,14 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_012
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   1.2 Below, we have provided a list of words. Use string formatting to produce the following string: "My favorite animals are elephants, giraffes, and zebras." Save this string to the variable name ``animal_string``. 
 
    animals = ['elephants', 'giraffes', 'zebras']
 
    animal_string = 
-
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -71,11 +81,14 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_02
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
 
+   2. Use string formatting to complete the string given. The blanks should correspond to variable ``name`` and ``breed``.  
+   
    name = "Oreo"
    breed = "poodle"
    str1 = "This is {}, he is a {}."
-      
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -91,9 +104,13 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_021
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   2.1 Using string interpolation, assign the correct value to the variable ``names`` so that the value assigned to the variable ``sent`` is "Paul, Jackie, and Stephen have taught or are teaching this class."
 
    sent = "{}, {}, and {} have taught or are teaching this class.".format()
 
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -110,12 +127,15 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_022
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   2.2 Below, we have created the variables ``course`` and ``school``. Use string formatting to produce the following string: "I'm enrolled in SI 106 here at University of Michigan." Save this string to the variable name ``final``. 
 
    course = "SI 106"
    school = "University of Michigan"
 
    final = 
-
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -132,9 +152,12 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_03
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   3. Provided is a list of tuples, the first is a country, the second is their medal count. Create a new list called ``medals`` using these tuples so that if the tuple was ('USA', 121), then what is added to medals is the string "USA won 121 medals". Do so using string interpolation.
 
    countries = [('Jamaica', 11), ('Malaysia',5), ('Japan', 41), ('Sweden', 11), ('Serbia', 8)]
-
+   ~~~~
    =====
 
    from unittest.gui import TestCaseGui
@@ -150,6 +173,9 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_031
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   3.1 Provided is a list of tuples, the first is a name, the second is a city. Create a new list called ``user_info`` using these tuples so that if the tuple was ('Ashley', 'Kalamazoo'), then what is added to user_info is the string "Ashley is from Kalamazoo". Do so using string interpolation.
 
    info = [('Sarah', 'Mattawan'), ("Grace", "Kalamazoo"), ('Mariana', "Sao Paulo"), ('Kevin', 'Melbourne'), ('Srishti', 'Dubai'), ('Kathleen', 'Bagota'), ('Ann', 'Excel')]
 
@@ -169,6 +195,9 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_032
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   3.2 Below, we have provided a list of tuples that contain information about summer Olympic meets. Create a new list called ``olympics_info`` using these tuples so that if the tuple is ('2016', 'Rio de Janeiro, Brazil'), then what is added to ``olympics_info`` is the string: "The 2016 Olympics were held in Rio de Janeiro, Brazil." Do this by using string interpolation. 
 
    tups = [('2016', 'Rio de Janeiro, Brazil'), ('2012', 'London, Great Britain'), ('2008', 'Beijing, China'), ('2004', 'Athens, Greece'), ('2000', 'Sydney, Australia'), ('1996', 'Atlanta, Georgia, USA'), ('1992', 'Barcelona, Spain'), ('1988', 'Seoul, Korea')]
 
@@ -187,7 +216,11 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_04
    :tags: StringFormatting/Interpolation.rst
-      
+   :spacedrepetition: True         
+
+
+   4. Write a function called ``pokemon`` that takes in a list of an integer and string. The integer is the level of the trainer and the string is where the trainer plays. If the player is level five or below, they have the most rattatas. If they are between level 6 and 10, they have the most zubats. If they are higher than level 10, they have the most eevees. Return the string "I'm level __ and I caught a bunch of __ in the __!" where the first blank is the player level, the second is the pokemon, and the third is the location where they play. For instance, if the inputted list is [2, "city"], the returned string should be "I'm level 2 and I caught a bunch of rattatas in the city!" Do this using string interpolation.
+   ~~~~
 
    =====
 
@@ -206,6 +239,9 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_041
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   4.1 Write a function called ``data_mine`` that takes a tuple as input, and return a string using interpolation, depending on the second item in the tuple. The first item is a city name, the second is the weather condition. If the second item in the tuple has the value of 'rain', then it should also be cloudy. If the second item has the value of 'sun', then there should be blue skies. If the second item has the value of 'snow', then it should be cold. Return the string "In ___ there is ___ so it is ____." or "In ____ there is ___ so there are _____." (so for ('Maz', 'rain'), we would return "In Maz there is rain so it is cloudy" (the same goes for snow), while for ('Bieur', 'sun'), we would return "In Bieur there is sun so there are blue skies.")
 
    =====
 
@@ -224,7 +260,10 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_042
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
 
+   4.2 Write a function called ``grades`` that takes in a list with two elements, the first being a string (a person's name) and the second being an integer (their grade on a test). If the grade is greater than or equal to 70, the function should return: "Congrats, [name], you passed the test with a [grade]!" If the grade is lower than 70, the function should return: "Sorry, [name], you failed the test with a [grade]."
+   ~~~~   
    =====
 
    from unittest.gui import TestCaseGui
@@ -242,6 +281,9 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_05
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
+
+   5. The list of tuples, ``order``, contains information about pizza orders. It contains information on whether or not the order is a pickup or delivery, how many pizzas were ordered, the kind of pizzas, and in how many minutes they need to be ready. Create a list called ``response`` that gives a response to each order. For a delivery, if the order input is ("delivery", 1, "cheese", 10), the response should be "Your 1 cheese pizza will be delivered in 10 minutes". If the order is a pickup, the response should be "Come pick up your 1 cheese pizza in 10 minutes". 
 
    order = [("delivery", 3, "pepperoni", 20), ("pickup", 4, "cheese", 10), ("pickup", 2, "combo", 5), ("delivery", 10, "cheese", 15), ("delivery", 1, "supreme", 60)]
 
@@ -261,7 +303,10 @@ Extra Exercises
 
 .. activecode:: ee_interpolation_052
    :tags: StringFormatting/Interpolation.rst
+   :spacedrepetition: True
 
+   5.1 Below, we have provided a list of tuples that contain information about customers' product reviews on Amazon: the product, its rating, and customer name. Write a function called ``feedback`` that takes a tuple as input and returns a message to the customer based on their review. If the customer rated their product as an 8 or higher, ``feedback`` should return the following string: "[name], we're happy to hear that you gave your new [product] a [rating] rating!" If the rating was below 8, ``feedback`` should return: "[name], we're sorry to hear that your new [product] was not excellent." Create a list called ``feedback_messages`` that contains a response to each customer below. 
+   
    tups = [("Dyson vacuum", 9.1, "Sandy"), ("Keurig", 5.0, "Timmy"), ("SleepComfort mattress", 8.0, "Sam"), ("Michael Kors vest", 6.9, "Kate"), ("LG Dishwasher", 10.0, "Charles")]
 
    =====

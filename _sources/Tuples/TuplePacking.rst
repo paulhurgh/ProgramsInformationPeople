@@ -36,5 +36,6 @@ have omitted the parentheses when first assigning a tuple to the variable julia.
    :feedback_d: Index into tuples using square brackets. julia(-1) will try to treat julia as a function call, with -1 as the parameter value.
    :feedback_e: Indexing starts at 0. You want the seventh item, which is julia[6]
    :correct: b
+   :spacedrepetition: True
 
    Which of the following statements will output Atlanta, Georgia

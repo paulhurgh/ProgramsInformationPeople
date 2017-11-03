@@ -188,6 +188,7 @@ dictionary d. The last parameter, True, says to sort in reverse order.
    :feedback_b: The lambda function takes just one parameter, and calls g with two parameters. 
    :feedback_c: The lambda function looks up the value of x in d.
    :correct: b,c
+   :spacedrepetition: True
 
    Which of the following will sort the keys of d in ascending order of their values (i.e., from lowest to highest)?
    

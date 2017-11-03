@@ -85,6 +85,8 @@ a parameter list, come back and look at this again.
    :feedback_d: return x, y causes the two values to be packed into a tuple.
    :feedback_e: It is possible, and frequently useful, to have one function compute multiple values.
    :correct: b,c,d
+   :spacedrepetition: True
+
 
    If you want a function to return two values, contained in variables x and y, which of the following methods will work?
 
@@ -96,6 +98,8 @@ a parameter list, come back and look at this again.
    :feedback_b: Once you assign x's value to y, y's original value is gone.
    :feedback_c: Once you assign x's value to y, y's original value is gone.
    :correct: b
+   :spacedrepetition: True
+
 
    Consider the following alternative way to swap the values of variables x and y. What's wrong with it?
    

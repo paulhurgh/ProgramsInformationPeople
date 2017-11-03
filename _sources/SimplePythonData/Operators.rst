@@ -105,6 +105,7 @@ Similarly ``x % 100`` yields the last two digits.
    :feedback_d: Because 18 and 4 are ints, / does integer division and produces an integer.
    :feedback_e: / does division. Perhaps you were thinking of %, which computes the remainder?
    :correct: c
+   :spacedrepetition: True
 
    What value is printed when the following statement executes?
 
@@ -124,6 +125,7 @@ Similarly ``x % 100`` yields the last two digits.
    :feedback_d: Because 18.0 is a float, / does exact division.
    :feedback_e: / does division. Perhaps you were thinking of %, which computes the remainder?
    :correct: a
+   :spacedrepetition: True
 
    What value is printed when the following statement executes?
 
@@ -144,6 +146,7 @@ Similarly ``x % 100`` yields the last two digits.
    :feedback_d: - The // operator does integer division, and  it yields a float when one of the operands is a float.
    :feedback_e: - / does division. Perhaps you were thinking of %, which computes the remainder?
    :correct: d
+   :spacedrepetition: True
 
    What value is printed when the following statement executes?
 
@@ -162,7 +165,8 @@ Similarly ``x % 100`` yields the last two digits.
    :feedback_c: The % operator returns the remainder after division.
    :feedback_d: The % operator returns the remainder after division.
    :correct: d
-
+   :spacedrepetition: True
+   
    What value is printed when the following statement executes?
 
    .. code-block:: python

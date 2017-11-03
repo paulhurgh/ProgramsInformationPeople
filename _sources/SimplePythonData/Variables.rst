@@ -142,7 +142,8 @@ For example, we can find out the data type of the current value of a variable by
    :feedback_c: This is the second value assigned to the variable day, but the next statement reassigns that variable to a new value.
    :feedback_d: The variable day will contain the last value assigned to it when it is printed.
    :correct: d
-
+   :spacedrepetition: True
+   
    What is printed when the following statements execute?
 
    .. code-block:: python

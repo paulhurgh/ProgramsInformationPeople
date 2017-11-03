@@ -85,6 +85,7 @@ Of course, it's unnecessary to make an anonymous function that takes an input an
    :feedback_b: -x produces the negative of x
    :feedback_c: sorted changes the order
    :correct: a
+   :spacedrepetition: True
 
    Describe what the sort order will be for this.
    
@@ -102,7 +103,8 @@ Of course, it's unnecessary to make an anonymous function that takes an input an
    :feedback_b: The True value for the reverse parameter says to reverse the order.
    :feedback_c: sorted changes the order.
    :correct: b
-
+   :spacedrepetition: True
+   
    Describe what the sort order will be for this.
    
    .. code-block:: python 

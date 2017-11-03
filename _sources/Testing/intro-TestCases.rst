@@ -101,6 +101,7 @@ in the Hangman problem set. Note that the tests will fail until you fill in a co
    :feedback_b: A message is printed out, but the program does not stop executing
    :feedback_c: A message is printed out, but the program does not stop executing
    :correct: b
+   :spacedrepetition: True
 
    When ``TestCase.assertEqual()`` is passed two values that are not the same, it generates an error and stops execution of the program.
  
@@ -110,6 +111,7 @@ in the Hangman problem set. Note that the tests will fail until you fill in a co
    :feedback_a: You might not notice the error, if the code just produces a wrong output rather generating an error. And it may be difficult to figure out the original cause of an error when you do get one.
    :feedback_b: Test cases let you test some pieces of code as you write them, rather than waiting for problems to show themselves later.
    :correct: b
+   :spacedrepetition: True
 
    Test cases are a waste of time, because python interpreter will give an error
    message when the program runs incorrectly.

@@ -62,6 +62,7 @@ two lines of code from above.
    :feedback_a: The blank space counts as a character.
    :feedback_b: Yes, there are 12 characters in the string.
    :correct: b
+   :spacedrepetition: True
 
    What is printed by the following statements?
    
@@ -81,7 +82,8 @@ two lines of code from above.
    :feedback_c: s is at index 11
    :feedback_d: You subtract 5 before using the index operator so it will work.
    :correct: b
-
+   :spacedrepetition: True
+   
    What is printed by the following statements?
    
    .. code-block:: python

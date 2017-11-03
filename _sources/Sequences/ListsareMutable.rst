@@ -76,6 +76,7 @@ desired location.
    :feedback_b: Yes, the value True is placed in the list at index 2.  It replaces 8.
    :feedback_c: Item assignment is allowed with lists.  Lists are mutable.
    :correct: b
+   :spacedrepetition: True
    
    What is printed by the following statements?
    

@@ -64,6 +64,7 @@ A method like ``distanceFromOrigin`` in the ``Point`` class you saw does its wor
    :feedback_a: Each test case checks whether the function works correctly on one input. It's a good idea to check several different inputs, including some extreme cases.
    :feedback_b: It's a good idea to check some extreme cases, as well as the typical cases.
    :correct: b
+   :spacedrepetition: True
 
    For each function, you should create exactly one test case.
  
@@ -73,6 +74,7 @@ A method like ``distanceFromOrigin`` in the ``Point`` class you saw does its wor
    :feedback_a: The method may return the correct value but not properly change the values of instance variables. See the move method of the Point class above. 
    :feedback_b: The move method of the Point class above is a good example.
    :correct: b
+   :spacedrepetition: True
 
    To test a method that changes the value of an instance variable, which kind of test case should you write?
 
@@ -82,6 +84,7 @@ A method like ``distanceFromOrigin`` in the ``Point`` class you saw does its wor
    :feedback_a: You want to check if maxabs returns the correct value for some input. 
    :feedback_b: The function has no side effects; even though it takes a list L as a parameter, it doesn't alter its contents.
    :correct: a
+   :spacedrepetition: True
 
    To test the function maxabs, which kind of test case should you write?
 
@@ -97,7 +100,8 @@ A method like ``distanceFromOrigin`` in the ``Point`` class you saw does its wor
    :feedback_a: The sort method always returns None, so there's nothing to check about whether it is returning the right value. 
    :feedback_b: You want to check whether it has the correct side effect, whether it correctly mutates the list.
    :correct: b
-      
+   :spacedrepetition: True
+         
    We have usually used the ``sorted`` function, which takes a list as input and returns a new list containing the same items, possibly in a different order. There is also a method called ``sort`` for lists (e.g. ``[1,6,2,4].sort()``). It changes the order of the items in the list itself, and it returns the value ``None``. Which kind of test case would you use on the sort method?    
    
 

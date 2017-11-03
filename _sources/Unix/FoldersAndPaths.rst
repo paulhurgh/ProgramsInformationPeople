@@ -80,6 +80,7 @@ This is useful for several reasons, including checking where you've navigated to
    :feedback_d: This specifies the home directory.
    :feedback_e: This specifies the Documents subdirectory of the home directory.
    :correct: a,d,e
+   :spacedrepetition: True
 
    Which of the following commands specify absolute paths?
 
@@ -96,5 +97,7 @@ This is useful for several reasons, including checking where you've navigated to
    :feedback_d: This specifies the full path of the home directory.
    :feedback_e: This specifies the full path of the Documents subdirectory of the home directory.
    :correct: b,c
+   :spacedrepetition: True
+
 
    Which of the following commands specify relative paths? 

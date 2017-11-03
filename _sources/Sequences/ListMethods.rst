@@ -106,7 +106,8 @@ analogous thing with these operations will lose the entire list contents (see li
    :feedback_b: Yes, each item is added to the end of the list.
    :feedback_c: append adds at the end, not the beginning.
    :correct: b
-   
+   :spacedrepetition: True
+
    What is printed by the following statements?
    
    .. code-block:: python
@@ -125,7 +126,8 @@ analogous thing with these operations will lose the entire list contents (see li
    :feedback_b: insert will place items at the index position specified and move everything down to the right.
    :feedback_c: insert does not remove anything or replace anything.
    :correct: a
-   
+   :spacedrepetition: True
+
    What is printed by the following statements?
    
    .. code-block:: python
@@ -144,7 +146,8 @@ analogous thing with these operations will lose the entire list contents (see li
    :feedback_b: pop() removes the last item, not the first.
    :feedback_c: Yes, first the 8 was removed, then the last item, which was 5.
    :correct: c
-   
+   :spacedrepetition: True
+
    What is printed by the following statements?
    
    .. code-block:: python
@@ -165,6 +168,7 @@ analogous thing with these operations will lose the entire list contents (see li
    :feedback_c: Yes, first the 4 was removed from the list, then returned and assigned to alist.  The list is lost.
    :feedback_d: pop(0) returns the first item in the list so alist has now been changed.
    :correct: c
+   :spacedrepetition: True
    
    What is printed by the following statements?
    
